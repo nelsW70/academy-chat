@@ -1,0 +1,371 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  background-color: #f0f0f0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  background-color: #f0f0f0;
+}
+body {
+  color: rgba(19, 16, 16, 1);
+  font-family: 'Cabin', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: 'liga' on;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.cards__item {
+  display: flex;
+  padding: 1rem;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .cards__item {
+    width: 50%;
+  }
+}
+@media (min-width: 900px) {
+  .cards__item {
+    width: 33.3333%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cards__item {
+    width: 25%;
+  }
+}
+.card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  display: flex;
+  align-items: center;
+  flex: 1;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.card__content {
+  display: flex;
+  flex: 1;
+  padding: 1.5rem;
+}
+
+.card__text {
+  flex: 1;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  @keyframes flickerAnimation1 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .flicker-one {
+    animation: flickerAnimation1 25s infinite;
+    animation-delay: 15s;
+  }
+
+  @keyframes flickerAnimation2 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .flicker-two {
+    animation: flickerAnimation2 22.5s infinite;
+    animation-delay: 25s;
+  }
+
+  @keyframes flickerAnimation3 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .flicker-three {
+    animation: flickerAnimation3 19.5s infinite;
+    animation-delay: 42s;
+  }
+
+  @keyframes flickerAnimation4 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .flicker-four {
+    animation: flickerAnimation4 24.5s infinite;
+    animation-delay: 35s;
+  }
+
+  @keyframes flickerAnimation5 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .flicker-five {
+    animation: flickerAnimation5 19.5s infinite;
+    animation-delay: 48s;
+  }
+
+  @keyframes flickerAnimation6 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .flicker-six {
+    animation: flickerAnimation6 17.5s infinite;
+    animation-delay: 22.5s;
+  }
+
+  @keyframes flickerAnimation7 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .flicker-seven {
+    animation: flickerAnimation7 18s infinite;
+    animation-delay: 20.5s;
+  }
+
+  @keyframes flickerAnimation8 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .flicker-eight {
+    animation: flickerAnimation8 21s infinite;
+    animation-delay: 9.5s;
+  }
+
+  @keyframes flickerAnimation9 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .flicker-nine {
+    animation: flickerAnimation9 22s infinite;
+    animation-delay: 11.5s;
+  }
+
+  @keyframes flickerAnimation10 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .flicker-ten {
+    animation: flickerAnimation10 17s infinite;
+    animation-delay: 13.5s;
+  }
+
+  @keyframes flickerAnimation11 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .flicker-eleven {
+    animation: flickerAnimation11 20s infinite;
+    animation-delay: 14.5s;
+  }
+
+  @keyframes flickerAnimation12 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .flicker-twelve {
+    animation: flickerAnimation12 25s infinite;
+    animation-delay: 24.5s;
+  }
+
+  @keyframes flickerAnimation13 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .flicker-thirteen {
+    animation: flickerAnimation13 22s infinite;
+    animation-delay: 18s;
+  }
+
+  @keyframes flickerAnimation14 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .flicker-fourteen {
+    animation: flickerAnimation14 23.5s infinite;
+    animation-delay: 23s;
+  }
+
+  @keyframes flickerAnimation15 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .flicker-fifteen {
+    animation: flickerAnimation15 18s infinite;
+    animation-delay: 16.5s;
+  }
+
+  @keyframes flickerAnimation16 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .flicker-sixteen {
+    animation: flickerAnimation16 21s infinite;
+    animation-delay: 18.5s;
+  }
+
+  @keyframes longDelay {
+    0% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+    25% {
+      background-color: darkslategray;
+      color: white;
+    }
+    50% {
+      background-color: rgb(171, 68, 68);
+      color: white;
+    }
+    75% {
+      background-color: rgb(68, 89, 130);
+      color: white;
+    }
+    100% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+  }
+  .card--long-delay {
+    animation: longDelay 120s infinite;
+    animation-delay: 300s;
+  }
+}
