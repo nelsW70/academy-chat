@@ -98,7 +98,7 @@ body {
     }
   }
   .flicker-one {
-    animation: flickerAnimation1 25s infinite;
+    animation: flickerAnimation1 35s infinite;
     animation-delay: 15s;
   }
 
@@ -114,7 +114,7 @@ body {
     }
   }
   .flicker-two {
-    animation: flickerAnimation2 22.5s infinite;
+    animation: flickerAnimation2 32.5s infinite;
     animation-delay: 25s;
   }
 
@@ -130,7 +130,7 @@ body {
     }
   }
   .flicker-three {
-    animation: flickerAnimation3 19.5s infinite;
+    animation: flickerAnimation3 29.5s infinite;
     animation-delay: 42s;
   }
 
@@ -146,7 +146,7 @@ body {
     }
   }
   .flicker-four {
-    animation: flickerAnimation4 24.5s infinite;
+    animation: flickerAnimation4 34.5s infinite;
     animation-delay: 35s;
   }
 
@@ -162,7 +162,7 @@ body {
     }
   }
   .flicker-five {
-    animation: flickerAnimation5 19.5s infinite;
+    animation: flickerAnimation5 29.5s infinite;
     animation-delay: 48s;
   }
 
@@ -178,7 +178,7 @@ body {
     }
   }
   .flicker-six {
-    animation: flickerAnimation6 17.5s infinite;
+    animation: flickerAnimation6 27.5s infinite;
     animation-delay: 22.5s;
   }
 
@@ -194,7 +194,7 @@ body {
     }
   }
   .flicker-seven {
-    animation: flickerAnimation7 18s infinite;
+    animation: flickerAnimation7 28s infinite;
     animation-delay: 20.5s;
   }
 
@@ -210,7 +210,7 @@ body {
     }
   }
   .flicker-eight {
-    animation: flickerAnimation8 21s infinite;
+    animation: flickerAnimation8 31s infinite;
     animation-delay: 9.5s;
   }
 
@@ -226,7 +226,7 @@ body {
     }
   }
   .flicker-nine {
-    animation: flickerAnimation9 22s infinite;
+    animation: flickerAnimation9 32s infinite;
     animation-delay: 11.5s;
   }
 
@@ -242,7 +242,7 @@ body {
     }
   }
   .flicker-ten {
-    animation: flickerAnimation10 17s infinite;
+    animation: flickerAnimation10 27s infinite;
     animation-delay: 13.5s;
   }
 
@@ -258,7 +258,7 @@ body {
     }
   }
   .flicker-eleven {
-    animation: flickerAnimation11 20s infinite;
+    animation: flickerAnimation11 30s infinite;
     animation-delay: 14.5s;
   }
 
@@ -274,7 +274,7 @@ body {
     }
   }
   .flicker-twelve {
-    animation: flickerAnimation12 25s infinite;
+    animation: flickerAnimation12 35s infinite;
     animation-delay: 24.5s;
   }
 
@@ -290,7 +290,7 @@ body {
     }
   }
   .flicker-thirteen {
-    animation: flickerAnimation13 22s infinite;
+    animation: flickerAnimation13 32s infinite;
     animation-delay: 18s;
   }
 
@@ -306,7 +306,7 @@ body {
     }
   }
   .flicker-fourteen {
-    animation: flickerAnimation14 23.5s infinite;
+    animation: flickerAnimation14 33.5s infinite;
     animation-delay: 23s;
   }
 
@@ -322,7 +322,7 @@ body {
     }
   }
   .flicker-fifteen {
-    animation: flickerAnimation15 18s infinite;
+    animation: flickerAnimation15 28s infinite;
     animation-delay: 16.5s;
   }
 
@@ -338,7 +338,7 @@ body {
     }
   }
   .flicker-sixteen {
-    animation: flickerAnimation16 21s infinite;
+    animation: flickerAnimation16 31s infinite;
     animation-delay: 18.5s;
   }
 
@@ -348,7 +348,10 @@ body {
       color: rgba(19, 16, 16, 1);
     }
     25% {
-      background-color: darkslategray;
+      background-color: goldenrod;
+      color: rgba(19, 16, 16, 1);
+    }
+    27.5% {
       color: white;
     }
     50% {
@@ -358,6 +361,9 @@ body {
     75% {
       background-color: rgb(68, 89, 130);
       color: white;
+    }
+    85% {
+      color: rgba(19, 16, 16, 1);
     }
     100% {
       background-color: white;
