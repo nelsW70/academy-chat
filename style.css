@@ -371,11 +371,6 @@ body {
     }
   }
 
-  .card--long-delay-one {
-    animation: longDelayOne 120s infinite;
-    animation-delay: 300s;
-  }
-
   @keyframes longDelayTwo {
     0% {
       background-color: white;
@@ -403,11 +398,6 @@ body {
       background-color: white;
       color: rgba(19, 16, 16, 1);
     }
-  }
-
-  .card--long-delay-two {
-    animation: longDelayTwo 120s infinite;
-    animation-delay: 350s;
   }
 
   @keyframes longDelayThree {
@@ -439,11 +429,6 @@ body {
     }
   }
 
-  .card--long-delay-three {
-    animation: longDelayThree 120s infinite;
-    animation-delay: 400s;
-  }
-
   @keyframes longDelayFour {
     0% {
       background-color: white;
@@ -472,8 +457,419 @@ body {
     }
   }
 
+  @keyframes longDelayFive {
+    0% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+    7.5% {
+      color: white;
+    }
+    25% {
+      background-color: slategray;
+    }
+    50% {
+      background-color: rgb(171, 68, 68);
+      color: white;
+    }
+    75% {
+      background-color: rgb(68, 89, 130);
+      color: white;
+    }
+    85% {
+      color: rgba(19, 16, 16, 1);
+    }
+    100% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+  }
+
+  @keyframes longDelaySix {
+    0% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+    7.5% {
+      color: white;
+    }
+    25% {
+      background-color: black;
+    }
+    50% {
+      background-color: rgb(171, 68, 68);
+      color: white;
+    }
+    75% {
+      background-color: rgb(68, 89, 130);
+      color: white;
+    }
+    85% {
+      color: rgba(19, 16, 16, 1);
+    }
+    100% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+  }
+
+  @keyframes longDelaySeven {
+    0% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+    7.5% {
+      color: white;
+    }
+    25% {
+      background-color: slategray;
+    }
+    50% {
+      background-color: rgb(171, 68, 68);
+      color: white;
+    }
+    75% {
+      background-color: rgb(68, 89, 130);
+      color: white;
+    }
+    85% {
+      color: rgba(19, 16, 16, 1);
+    }
+    100% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+  }
+
+  @keyframes longDelayEight {
+    0% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+    7.5% {
+      color: white;
+    }
+    25% {
+      background-color: black;
+    }
+    50% {
+      background-color: rgb(171, 68, 68);
+      color: white;
+    }
+    75% {
+      background-color: rgb(68, 89, 130);
+      color: white;
+    }
+    85% {
+      color: rgba(19, 16, 16, 1);
+    }
+    100% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+  }
+
+  @keyframes longDelayNine {
+    0% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+    7.5% {
+      color: white;
+    }
+    25% {
+      background-color: slategray;
+    }
+    50% {
+      background-color: rgb(171, 68, 68);
+      color: white;
+    }
+    75% {
+      background-color: rgb(68, 89, 130);
+      color: white;
+    }
+    85% {
+      color: rgba(19, 16, 16, 1);
+    }
+    100% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+  }
+
+  @keyframes longDelayTen {
+    0% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+    7.5% {
+      color: white;
+    }
+    25% {
+      background-color: slategray;
+    }
+    50% {
+      background-color: rgb(171, 68, 68);
+      color: white;
+    }
+    75% {
+      background-color: rgb(68, 89, 130);
+      color: white;
+    }
+    85% {
+      color: rgba(19, 16, 16, 1);
+    }
+    100% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+  }
+
+  @keyframes longDelayEleven {
+    0% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+    7.5% {
+      color: white;
+    }
+    25% {
+      background-color: slategray;
+    }
+    50% {
+      background-color: rgb(171, 68, 68);
+      color: white;
+    }
+    75% {
+      background-color: rgb(68, 89, 130);
+      color: white;
+    }
+    85% {
+      color: rgba(19, 16, 16, 1);
+    }
+    100% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+  }
+
+  @keyframes longDelayTwelve {
+    0% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+    7.5% {
+      color: white;
+    }
+    25% {
+      background-color: black;
+    }
+    50% {
+      background-color: rgb(171, 68, 68);
+      color: white;
+    }
+    75% {
+      background-color: rgb(68, 89, 130);
+      color: white;
+    }
+    85% {
+      color: rgba(19, 16, 16, 1);
+    }
+    100% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+  }
+
+  @keyframes longDelayThirteen {
+    0% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+    7.5% {
+      color: white;
+    }
+    25% {
+      background-color: slategray;
+    }
+    50% {
+      background-color: rgb(171, 68, 68);
+      color: white;
+    }
+    75% {
+      background-color: rgb(68, 89, 130);
+      color: white;
+    }
+    85% {
+      color: rgba(19, 16, 16, 1);
+    }
+    100% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+  }
+
+  @keyframes longDelayFourteen {
+    0% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+    7.5% {
+      color: white;
+    }
+    25% {
+      background-color: black;
+    }
+    50% {
+      background-color: rgb(171, 68, 68);
+      color: white;
+    }
+    75% {
+      background-color: rgb(68, 89, 130);
+      color: white;
+    }
+    85% {
+      color: rgba(19, 16, 16, 1);
+    }
+    100% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+  }
+
+  @keyframes longDelayFifteen {
+    0% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+    7.5% {
+      color: white;
+    }
+    25% {
+      background-color: slategray;
+    }
+    50% {
+      background-color: rgb(171, 68, 68);
+      color: white;
+    }
+    75% {
+      background-color: rgb(68, 89, 130);
+      color: white;
+    }
+    85% {
+      color: rgba(19, 16, 16, 1);
+    }
+    100% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+  }
+
+  @keyframes longDelaySixteen {
+    0% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+    7.5% {
+      color: white;
+    }
+    25% {
+      background-color: slategray;
+    }
+    50% {
+      background-color: rgb(171, 68, 68);
+      color: white;
+    }
+    75% {
+      background-color: rgb(68, 89, 130);
+      color: white;
+    }
+    85% {
+      color: rgba(19, 16, 16, 1);
+    }
+    100% {
+      background-color: white;
+      color: rgba(19, 16, 16, 1);
+    }
+  }
+
+  .card--long-delay-one {
+    animation: longDelayOne 120s infinite;
+    animation-delay: 300s;
+  }
+
+  .card--long-delay-two {
+    animation: longDelayTwo 150s infinite;
+    animation-delay: 325s;
+  }
+
+  .card--long-delay-three {
+    animation: longDelayThree 130s infinite;
+    animation-delay: 350s;
+  }
+
   .card--long-delay-four {
-    animation: longDelayFour 120s infinite;
+    animation: longDelayFour 160s infinite;
+    animation-delay: 375s;
+  }
+
+  .card--long-delay-five {
+    animation: longDelayFive 120s infinite;
+    animation-delay: 400s;
+  }
+
+  .card--long-delay-six {
+    animation: longDelaySix 140s infinite;
+    animation-delay: 425s;
+  }
+
+  .card--long-delay-seven {
+    animation: longDelaySeven 180s infinite;
     animation-delay: 450s;
+  }
+
+  .card--long-delay-eight {
+    animation: longDelayEight 170s infinite;
+    animation-delay: 475s;
+  }
+
+  .card--long-delay-nine {
+    animation: longDelayNine 120s infinite;
+    animation-delay: 500s;
+  }
+
+  .card--long-delay-ten {
+    animation: longDelayTen 135s infinite;
+    animation-delay: 525s;
+  }
+
+  .card--long-delay-eleven {
+    animation: longDelayEleven 125s infinite;
+    animation-delay: 550s;
+  }
+
+  .card--long-delay-twelve {
+    animation: longDelayTwelve 145s infinite;
+    animation-delay: 575s;
+  }
+
+  .card--long-delay-thirteen {
+    animation: longDelayThirteen 160s infinite;
+    animation-delay: 600s;
+  }
+
+  .card--long-delay-fourteen {
+    animation: longDelayFourteen 180s infinite;
+    animation-delay: 625s;
+  }
+
+  .card--long-delay-fifteen {
+    animation: longDelayFifteen 120s infinite;
+    animation-delay: 650s;
+  }
+
+  .card--long-delay-sixteen {
+    animation: longDelaySixteen 140s infinite;
+    animation-delay: 675s;
   }
 }
