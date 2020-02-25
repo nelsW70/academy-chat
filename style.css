@@ -79,7 +79,7 @@ body {
 
 .card__text {
   flex: 1;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   line-height: 1.5;
   margin-bottom: 0;
   margin-top: 0;
@@ -99,7 +99,7 @@ body {
   }
   .flicker-one {
     animation: flickerAnimation1 35s infinite;
-    animation-delay: 15s;
+    animation-delay: 115s;
   }
 
   @keyframes flickerAnimation2 {
@@ -115,7 +115,7 @@ body {
   }
   .flicker-two {
     animation: flickerAnimation2 32.5s infinite;
-    animation-delay: 25s;
+    animation-delay: 125s;
   }
 
   @keyframes flickerAnimation3 {
@@ -131,7 +131,7 @@ body {
   }
   .flicker-three {
     animation: flickerAnimation3 29.5s infinite;
-    animation-delay: 42s;
+    animation-delay: 142s;
   }
 
   @keyframes flickerAnimation4 {
@@ -147,7 +147,7 @@ body {
   }
   .flicker-four {
     animation: flickerAnimation4 34.5s infinite;
-    animation-delay: 35s;
+    animation-delay: 135s;
   }
 
   @keyframes flickerAnimation5 {
@@ -163,7 +163,7 @@ body {
   }
   .flicker-five {
     animation: flickerAnimation5 29.5s infinite;
-    animation-delay: 48s;
+    animation-delay: 148s;
   }
 
   @keyframes flickerAnimation6 {
@@ -179,7 +179,7 @@ body {
   }
   .flicker-six {
     animation: flickerAnimation6 27.5s infinite;
-    animation-delay: 22.5s;
+    animation-delay: 122.5s;
   }
 
   @keyframes flickerAnimation7 {
@@ -195,7 +195,7 @@ body {
   }
   .flicker-seven {
     animation: flickerAnimation7 28s infinite;
-    animation-delay: 20.5s;
+    animation-delay: 120.5s;
   }
 
   @keyframes flickerAnimation8 {
@@ -211,7 +211,7 @@ body {
   }
   .flicker-eight {
     animation: flickerAnimation8 31s infinite;
-    animation-delay: 9.5s;
+    animation-delay: 99.5s;
   }
 
   @keyframes flickerAnimation9 {
@@ -227,7 +227,7 @@ body {
   }
   .flicker-nine {
     animation: flickerAnimation9 32s infinite;
-    animation-delay: 11.5s;
+    animation-delay: 111.5s;
   }
 
   @keyframes flickerAnimation10 {
@@ -243,7 +243,7 @@ body {
   }
   .flicker-ten {
     animation: flickerAnimation10 27s infinite;
-    animation-delay: 13.5s;
+    animation-delay: 113.5s;
   }
 
   @keyframes flickerAnimation11 {
@@ -259,7 +259,7 @@ body {
   }
   .flicker-eleven {
     animation: flickerAnimation11 30s infinite;
-    animation-delay: 14.5s;
+    animation-delay: 118.5s;
   }
 
   @keyframes flickerAnimation12 {
@@ -275,7 +275,7 @@ body {
   }
   .flicker-twelve {
     animation: flickerAnimation12 35s infinite;
-    animation-delay: 24.5s;
+    animation-delay: 124.5s;
   }
 
   @keyframes flickerAnimation13 {
@@ -291,7 +291,7 @@ body {
   }
   .flicker-thirteen {
     animation: flickerAnimation13 32s infinite;
-    animation-delay: 18s;
+    animation-delay: 118s;
   }
 
   @keyframes flickerAnimation14 {
@@ -307,7 +307,7 @@ body {
   }
   .flicker-fourteen {
     animation: flickerAnimation14 33.5s infinite;
-    animation-delay: 23s;
+    animation-delay: 123s;
   }
 
   @keyframes flickerAnimation15 {
@@ -323,7 +323,7 @@ body {
   }
   .flicker-fifteen {
     animation: flickerAnimation15 28s infinite;
-    animation-delay: 16.5s;
+    animation-delay: 116.5s;
   }
 
   @keyframes flickerAnimation16 {
@@ -339,12 +339,12 @@ body {
   }
   .flicker-sixteen {
     animation: flickerAnimation16 31s infinite;
-    animation-delay: 18.5s;
+    animation-delay: 92.5s;
   }
 
   @keyframes longDelayOne {
     0% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
     25% {
@@ -352,28 +352,28 @@ body {
       color: rgba(19, 16, 16, 1);
     }
     27.5% {
-      color: white;
+      color: whitesmoke;
     }
     50% {
       background-color: rgb(171, 68, 68);
-      color: white;
+      color: whitesmoke;
     }
     75% {
       background-color: rgb(68, 89, 130);
-      color: white;
+      color: whitesmoke;
     }
     85% {
       color: rgba(19, 16, 16, 1);
     }
     100% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
   }
 
   @keyframes longDelayTwo {
     0% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
     25% {
@@ -381,28 +381,28 @@ body {
       color: rgba(19, 16, 16, 1);
     }
     27.5% {
-      color: white;
+      color: whitesmoke;
     }
     50% {
       background-color: rgb(171, 68, 68);
-      color: white;
+      color: whitesmoke;
     }
     75% {
       background-color: rgb(68, 89, 130);
-      color: white;
+      color: whitesmoke;
     }
     85% {
       color: rgba(19, 16, 16, 1);
     }
     100% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
   }
 
   @keyframes longDelayThree {
     0% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
     25% {
@@ -410,385 +410,385 @@ body {
       color: rgba(19, 16, 16, 1);
     }
     27.5% {
-      color: white;
+      color: whitesmoke;
     }
     50% {
       background-color: rgb(171, 68, 68);
-      color: white;
+      color: whitesmoke;
     }
     75% {
       background-color: rgb(68, 89, 130);
-      color: white;
+      color: whitesmoke;
     }
     85% {
       color: rgba(19, 16, 16, 1);
     }
     100% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
   }
 
   @keyframes longDelayFour {
     0% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
     7.5% {
-      color: white;
+      color: whitesmoke;
     }
     25% {
       background-color: slategray;
     }
     50% {
       background-color: rgb(171, 68, 68);
-      color: white;
+      color: whitesmoke;
     }
     75% {
       background-color: rgb(68, 89, 130);
-      color: white;
+      color: whitesmoke;
     }
     85% {
       color: rgba(19, 16, 16, 1);
     }
     100% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
   }
 
   @keyframes longDelayFive {
     0% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
     7.5% {
-      color: white;
+      color: whitesmoke;
     }
     25% {
       background-color: slategray;
     }
     50% {
       background-color: rgb(171, 68, 68);
-      color: white;
+      color: whitesmoke;
     }
     75% {
       background-color: rgb(68, 89, 130);
-      color: white;
+      color: whitesmoke;
     }
     85% {
       color: rgba(19, 16, 16, 1);
     }
     100% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
   }
 
   @keyframes longDelaySix {
     0% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
     7.5% {
-      color: white;
+      color: whitesmoke;
     }
     25% {
-      background-color: black;
+      background-color: #096150;
     }
     50% {
       background-color: rgb(171, 68, 68);
-      color: white;
+      color: whitesmoke;
     }
     75% {
       background-color: rgb(68, 89, 130);
-      color: white;
+      color: whitesmoke;
     }
     85% {
       color: rgba(19, 16, 16, 1);
     }
     100% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
   }
 
   @keyframes longDelaySeven {
     0% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
     7.5% {
-      color: white;
+      color: whitesmoke;
     }
     25% {
       background-color: slategray;
     }
     50% {
       background-color: rgb(171, 68, 68);
-      color: white;
+      color: whitesmoke;
     }
     75% {
       background-color: rgb(68, 89, 130);
-      color: white;
+      color: whitesmoke;
     }
     85% {
       color: rgba(19, 16, 16, 1);
     }
     100% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
   }
 
   @keyframes longDelayEight {
     0% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
     7.5% {
-      color: white;
+      color: whitesmoke;
     }
     25% {
-      background-color: black;
+      background-color: #096150;
     }
     50% {
       background-color: rgb(171, 68, 68);
-      color: white;
+      color: whitesmoke;
     }
     75% {
       background-color: rgb(68, 89, 130);
-      color: white;
+      color: whitesmoke;
     }
     85% {
       color: rgba(19, 16, 16, 1);
     }
     100% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
   }
 
   @keyframes longDelayNine {
     0% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
     7.5% {
-      color: white;
+      color: whitesmoke;
     }
     25% {
       background-color: slategray;
     }
     50% {
       background-color: rgb(171, 68, 68);
-      color: white;
+      color: whitesmoke;
     }
     75% {
       background-color: rgb(68, 89, 130);
-      color: white;
+      color: whitesmoke;
     }
     85% {
       color: rgba(19, 16, 16, 1);
     }
     100% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
   }
 
   @keyframes longDelayTen {
     0% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
     7.5% {
-      color: white;
+      color: whitesmoke;
     }
     25% {
-      background-color: black;
+      background-color: #096150;
     }
     50% {
       background-color: rgb(171, 68, 68);
-      color: white;
+      color: whitesmoke;
     }
     75% {
       background-color: rgb(68, 89, 130);
-      color: white;
+      color: whitesmoke;
     }
     85% {
       color: rgba(19, 16, 16, 1);
     }
     100% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
   }
 
   @keyframes longDelayEleven {
     0% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
     7.5% {
-      color: white;
+      color: whitesmoke;
     }
     25% {
       background-color: slategray;
     }
     50% {
       background-color: rgb(171, 68, 68);
-      color: white;
+      color: whitesmoke;
     }
     75% {
       background-color: rgb(68, 89, 130);
-      color: white;
+      color: whitesmoke;
     }
     85% {
       color: rgba(19, 16, 16, 1);
     }
     100% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
   }
 
   @keyframes longDelayTwelve {
     0% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
     7.5% {
-      color: white;
+      color: whitesmoke;
     }
     25% {
-      background-color: black;
+      background-color: #096150;
     }
     50% {
       background-color: rgb(171, 68, 68);
-      color: white;
+      color: whitesmoke;
     }
     75% {
       background-color: rgb(68, 89, 130);
-      color: white;
+      color: whitesmoke;
     }
     85% {
       color: rgba(19, 16, 16, 1);
     }
     100% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
   }
 
   @keyframes longDelayThirteen {
     0% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
     7.5% {
-      color: white;
+      color: whitesmoke;
     }
     25% {
       background-color: slategray;
     }
     50% {
       background-color: rgb(171, 68, 68);
-      color: white;
+      color: whitesmoke;
     }
     75% {
       background-color: rgb(68, 89, 130);
-      color: white;
+      color: whitesmoke;
     }
     85% {
       color: rgba(19, 16, 16, 1);
     }
     100% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
   }
 
   @keyframes longDelayFourteen {
     0% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
     7.5% {
-      color: white;
+      color: whitesmoke;
     }
     25% {
-      background-color: black;
+      background-color: #096150;
     }
     50% {
       background-color: rgb(171, 68, 68);
-      color: white;
+      color: whitesmoke;
     }
     75% {
       background-color: rgb(68, 89, 130);
-      color: white;
+      color: whitesmoke;
     }
     85% {
       color: rgba(19, 16, 16, 1);
     }
     100% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
   }
 
   @keyframes longDelayFifteen {
     0% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
     7.5% {
-      color: white;
+      color: whitesmoke;
     }
     25% {
       background-color: slategray;
     }
     50% {
       background-color: rgb(171, 68, 68);
-      color: white;
+      color: whitesmoke;
     }
     75% {
       background-color: rgb(68, 89, 130);
-      color: white;
+      color: whitesmoke;
     }
     85% {
       color: rgba(19, 16, 16, 1);
     }
     100% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
   }
 
   @keyframes longDelaySixteen {
     0% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
     7.5% {
-      color: white;
+      color: whitesmoke;
     }
     25% {
       background-color: slategray;
     }
     50% {
       background-color: rgb(171, 68, 68);
-      color: white;
+      color: whitesmoke;
     }
     75% {
       background-color: rgb(68, 89, 130);
-      color: white;
+      color: whitesmoke;
     }
     85% {
       color: rgba(19, 16, 16, 1);
     }
     100% {
-      background-color: white;
+      background-color: whitesmoke;
       color: rgba(19, 16, 16, 1);
     }
   }
