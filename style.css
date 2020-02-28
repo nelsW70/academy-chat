@@ -52,6 +52,9 @@ body {
 }
 
 @media (min-width: 1200px) {
+  .cards {
+    height: calc(100vh - 2rem);
+  }
   .cards__item {
     width: 25%;
   }
