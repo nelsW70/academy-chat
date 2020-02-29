@@ -182,7 +182,7 @@ body {
   }
   .flicker-six {
     animation: flickerAnimation6 27.5s infinite;
-    animation-delay: 122.5s;
+    animation-delay: 100.5s;
   }
 
   @keyframes flickerAnimation7 {
