@@ -89,7 +89,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  @keyframes flickerAnimation1 {
+  /* @keyframes flickerAnimation1 {
     0% {
       opacity: 1;
     }
@@ -343,9 +343,9 @@ body {
   .flicker-sixteen {
     animation: flickerAnimation16 31s infinite;
     animation-delay: 92.5s;
-  }
+  } */
 
-  @keyframes longDelayOne {
+  /* @keyframes longDelayOne {
     0% {
       background-color: white;
       color: rgba(19, 16, 16, 1);
@@ -875,4 +875,4 @@ body {
     animation: longDelaySixteen 140s infinite;
     animation-delay: 675s;
   }
-}
+} */
